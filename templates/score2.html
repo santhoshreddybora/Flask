@@ -1,0 +1,10 @@
+<HTML>
+    <title>Score and results of student</title>
+    <body>
+        <h3>{% if results>50 %} </h3>
+        <p>Student is passed and score is {{results}}</p>
+        {% else %}
+        <p>Student is failed and score is {{results}}</p>
+        {% endif %}
+    </body>
+</HTML>
